@@ -87,7 +87,7 @@ public final class SystemStream {
 	/**
 	 * ACTIVATE THE THREAD PRINT. SHOULD BE DONE PRIOR TO bind() to be consistent.
 	 */
-	public static void redirect() {
+	public static void bind() {
 		bind(null, null);
 	}
 	
